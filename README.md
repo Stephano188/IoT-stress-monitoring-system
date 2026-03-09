@@ -1,6 +1,4 @@
 # IoT-stress-monitoring-system
-Physiological health monitoring device using an Arduino Nano ESP32 and multiple biosensors.
-
 This project explores the development of an **IoT health monitoring prototype** using an **Arduino Nano ESP32** and multiple physiological sensors.
 
 The system collects real-time data from several sensors and processes it on-device to monitor physiological indicators and detect events such as falls.
