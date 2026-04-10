@@ -25,7 +25,7 @@ void setup() {
 
 void loop() {
 
-  // ---- Read and Smooth ----
+  // Read and Smooth
   int numReadings = 20;      // number of samples for noise reduction
   long total = 0;
 
@@ -36,7 +36,7 @@ void loop() {
 
   int gsrValue = total / numReadings;
 
-  // ---- Print Values ----
+  // Print Values
   Serial.print("GSR Raw Value: ");
   Serial.println(gsrValue);
 
