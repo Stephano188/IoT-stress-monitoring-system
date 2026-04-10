@@ -136,7 +136,7 @@ void setup() {
   delay(50);
 }
 
-// ---------- Loop ----------
+// Loop 
 void loop() {
   readIMU();
   float amag = accelMagnitudeG();
@@ -172,7 +172,7 @@ void loop() {
       break;
   }
 
-  // --- Debug print ---
+  // Debug print 
   Serial.print("A[g]: ");
   Serial.print(ax_g, 3); Serial.print(", ");
   Serial.print(ay_g, 3); Serial.print(", ");
