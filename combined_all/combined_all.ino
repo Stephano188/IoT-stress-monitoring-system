@@ -11,14 +11,6 @@
   Serial Monitor output every 500ms (115200 baud):
     Finger | IR | BPM | SpO2 | IMU | GSR | Temp
 
-  Folder structure:
-    combined_all/
-    ├── combined_all.ino
-    ├── ImuFall.h
-    ├── ImuFall.cpp
-    ├── PulseOx.h
-    └── PulseOx.cpp
-
   Libraries (install via Library Manager):
     SparkFun MAX3010x Pulse and Proximity Sensor Library
     OneWire
@@ -34,7 +26,7 @@
 
 //  Module instances
 
-// IMU — override pins here if your wiring differs
+// IMU 
 ImuFall::Config imuCfg;
 // imuCfg.pinSck     = 13;
 // imuCfg.pinMiso    = 12;
